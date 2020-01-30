@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form action="/external" accept="image/png"  method="post" name="param"> 
+  {% csrf_token %}
+  Your image: <input type="file" name="pic" id="pic"  required><br><br>
+  {{data_external}}<br><br>
+  {{data1}}
+  <br> <br>
+  
+  <input type="submit" value="Submit">
+</form>
+
+
+
+</body>
+</html>
