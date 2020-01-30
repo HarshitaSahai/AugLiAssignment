@@ -13,6 +13,6 @@ Extracting text from an image (in png format).
 Note: Run the python file : /.../.../ python image-to-text.py "image path"
       Run html page       : /.../.../mysite  manage.py runserver
       
-image-to-text.py : run seperately then file available on code session image-to-text.py "file path".
+image-to-text.py : run seperately then file available on code session(3rd from first) image-to-text.py "file path".
 image-to-text.py : run with html file then /mysite/mysite/python image-to-text.py "file name inside the folder only".
       
